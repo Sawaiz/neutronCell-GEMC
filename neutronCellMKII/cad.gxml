@@ -1,8 +1,8 @@
 <gxml>
     <!--Body of the sensor is Aluminium -->
-    <volume name="blankCap"             color="848789" material="G4_Al"             position="0*mm 0*mm 1273.27*mm" rotation="0*deg 180*deg 0*deg" sensitivity="neutronCell" identifiers="blank cap"/>
-    <volume name="sensorCap"            color="848789" material="G4_Al"             position="0*mm 0*mm 1273.27*mm" rotation="0*deg 180*deg 0*deg" sensitivity="neutronCell" identifiers="sensor cap"/>
-    <volume name="tube"                 color="848789" material="G4_Al"             position="0*mm 0*mm 1273.27*mm" rotation="0*deg 180*deg 0*deg" sensitivity="neutronCell" identifiers="tube"/>
+    <volume name="blankCap"             color="848789" material="G4_Al"             position="-382.13729*mm 1.46707*mm 0.0000*mm" rotation="-90*deg 0*deg     *deg" sensitivity="neutronCell" identifiers="blank cap"/>
+    <volume name="sensorCap"            color="848789" material="G4_Al"             position="-061.46229*mm 1.46707*mm 0.0000*mm" rotation="-90*deg 0*deg -180*deg" sensitivity="neutronCell" identifiers="sensor cap"/>
+    <volume name="tube"                 color="848789" material="G4_Al"             position="-375.78729*mm 1.46707*mm 0.0000*mm" rotation="180*deg 0*deg   90*deg" sensitivity="neutronCell" identifiers="tube"/>
 
     <!--18-8 Stainless steel for the sensor cap, held in with screws and ORing-->
     <volume name="sensorHolder"         color="e0dfdb" material="scintillator"      position="0*mm 0*mm 1273.27*mm" rotation="0*deg 180*deg 0*deg" sensitivity="neutronCell" identifiers="sensor holder"/>
