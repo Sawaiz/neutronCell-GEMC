@@ -1,20 +1,20 @@
 <gxml>
     <!--Body of the sensor is Aluminium -->
-    <volume name="blankCap"             color="848789" material="G4_Al"             position="-382.13729*mm 1.46707*mm 0.0000*mm" rotation="-90*deg 0*deg     *deg" sensitivity="neutronCell" identifiers="blank cap"/>
-    <volume name="sensorCap"            color="848789" material="G4_Al"             position="-061.46229*mm 1.46707*mm 0.0000*mm" rotation="-90*deg 0*deg -180*deg" sensitivity="neutronCell" identifiers="sensor cap"/>
-    <volume name="tube"                 color="848789" material="G4_Al"             position="-375.78729*mm 1.46707*mm 0.0000*mm" rotation="180*deg 0*deg   90*deg" sensitivity="neutronCell" identifiers="tube"/>
+    <volume name="blankCap"             color="848789" material="G4_Al"             position="-382.13729*mm 1.46707*mm 0.0000*mm"   rotation="-90*deg 0*deg     *deg" sensitivity="neutronCell" identifiers="blank cap"/>
+    <volume name="sensorCap"            color="848789" material="G4_Al"             position="-061.46229*mm 1.46707*mm 0.0000*mm"   rotation="-90*deg 0*deg -180*deg" sensitivity="neutronCell" identifiers="sensor cap"/>
+    <volume name="tube"                 color="848789" material="G4_Al"             position="-375.78729*mm 1.46707*mm 0.0000*mm"   rotation="180*deg 0*deg   90*deg" sensitivity="neutronCell" identifiers="paddle tube"/>
 
     <!--18-8 Stainless steel for the sensor cap, held in with screws and ORing-->
-    <volume name="sensorHolder"         color="e0dfdb" material="scintillator"      position="0*mm 0*mm 1273.27*mm" rotation="0*deg 180*deg 0*deg" sensitivity="neutronCell" identifiers="sensor holder"/>
-    <volume name="oRing"                color="000000" material="G4_RUBBER_BUTYL"   position="0*mm 0*mm 1273.27*mm" rotation="0*deg 180*deg 0*deg" sensitivity="neutronCell" identifiers="o-ring"/>
+    <volume name="sensorHolder"         color="e0dfdb" material="scintillator"      position="-48.76229*mm 1.46707*mm 0*mm"         rotation="180*deg 0*deg -180*deg" sensitivity="neutronCell" identifiers="sensor holder"/>
+    <volume name="oRing"                color="000000" material="G4_RUBBER_BUTYL"   position="-60.21769*mm 1.46707*mm 0*mm"         rotation="-177.3266*deg 0*deg -90*deg" sensitivity="neutronCell" identifiers="o-ring"/>
 
     <!--Four screws that hold the sensorHolder to sensorCap-->
-    <volume name="4-40SocketCap0.625"   color="e0dfdb" material="scintillator"      position="0*mm 0*mm 1273.27*mm" rotation="0*deg 180*deg 0*deg" sensitivity="neutronCell" identifiers="screw 0"/>
-    <volume name="4-40SocketCap1.625"   color="e0dfdb" material="scintillator"      position="0*mm 0*mm 1273.27*mm" rotation="0*deg 180*deg 0*deg" sensitivity="neutronCell" identifiers="screw 1"/>
-    <volume name="4-40SocketCap2.625"   color="e0dfdb" material="scintillator"      position="0*mm 0*mm 1273.27*mm" rotation="0*deg 180*deg 0*deg" sensitivity="neutronCell" identifiers="screw 2"/>
-    <volume name="4-40SocketCap3.625"   color="e0dfdb" material="scintillator"      position="0*mm 0*mm 1273.27*mm" rotation="0*deg 180*deg 0*deg" sensitivity="neutronCell" identifiers="screw 3"/>
+    <volume name="4-40SocketCap0.625"   color="e0dfdb" material="G4_Pb"             position="-64.63729*mm -13.77293*mm  10.795*mm" rotation="0*deg 90*deg -27.6016*deg" sensitivity="neutronCell" identifiers="screw 0"/>
+    <volume name="4-40SocketCap1.625"   color="e0dfdb" material="G4_Pb"             position="-64.63729*mm  16.70707*mm  10.795*mm" rotation="0*deg 90*deg  48.1245*deg" sensitivity="neutronCell" identifiers="screw 1"/>
+    <volume name="4-40SocketCap2.625"   color="e0dfdb" material="G4_Pb"             position="-64.63729*mm  16.70707*mm -10.795*mm" rotation="0*deg 90*deg -46.8197*deg" sensitivity="neutronCell" identifiers="screw 2"/>
+    <volume name="4-40SocketCap3.625"   color="e0dfdb" material="G4_Pb"             position="-64.63729*mm -13.77293*mm -10.795*mm" rotation="0*deg 90*deg -48.8726*deg" sensitivity="neutronCell" identifiers="screw 3"/>
 
     <!--Glass tube holds the fiber encased in optical grease-->
-    <volume name="glassTube"  style="0" color="FFFFFF" material="scintillator"      position="0*mm 0*mm 1273.27*mm" rotation="0*deg 180*deg 0*deg" sensitivity="neutronCell" identifiers="glass tube"/>
-    <volume name="fiber"                color="16ce5a" material="scintillator"      position="0*mm 0*mm 1273.27*mm" rotation="0*deg 180*deg 0*deg" sensitivity="neutronCell" identifiers="fiber"/>
+    <volume name="glassTube"  style="0" color="FFFFFF" material="G4_Pb"             position="-190.68479*mm 1.46707*mm 0*mm"        rotation="-14.3125*deg 0*deg 90*deg" sensitivity="neutronCell" identifiers="glass tube"/>
+    <volume name="fiber"                color="16ce5a" material="G4_Pb"             position="-187.46229*mm 1.46707*mm 0*mm"        rotation="174.7136*deg 0*deg 90*deg" sensitivity="neutronCell" identifiers="fiber"/>
 </gxml>

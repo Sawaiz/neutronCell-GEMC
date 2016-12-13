@@ -2,7 +2,7 @@
 	<!--<detector name="target" factory="TEXT" variation="lH2"/>-->
 	<!--<detector name="solenoid" factory="TEXT" variation="original"/>-->
 
-	<!--<detector name="neutronCell" factory="TEXT" variation="cad"/>-->
+	<detector name="neutronCell" factory="TEXT" variation="cad"/>
 	<detector name="neutronCellMKII/" factory="CAD"/>
 
 	<option name="geometry" value="1400x1200"/>
